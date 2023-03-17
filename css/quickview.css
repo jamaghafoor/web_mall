@@ -1,0 +1,192 @@
+
+
+/*Login Form Style*/
+
+.loginBox {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff2d7;
+    border-radius: 4px;
+    z-index: 999;
+}
+
+.loginBox h3 {
+    font-size: 28px;
+    color: #333;
+    padding-bottom: 35px;
+}
+
+.closeBtn {
+    float: right;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #ffa800;
+    color: #fff;
+    cursor: pointer;
+}
+
+.loginForm,
+.registerForm {
+    padding: 55px;
+    width: 45%;
+}
+
+.loginForm {
+    float: left;
+}
+
+.registerForm {
+    float: right;
+}
+
+.textField {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #ffa800;
+    border-radius: 4px;
+    color: #333;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.submitBtn {
+    width: 100%;
+    height: 45px;
+    background-color: #ffa800;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+/*ProductViewBox Style*/
+
+.productViewBox {
+    width: 80%;
+    height: 85%;
+    margin: auto auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    border: 1px solid #7f8c8d;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 5px 250px #000;
+    padding: 10px 15px;
+    overflow-y: auto;
+    display: none;
+}
+
+.productViewBox h3 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+}
+
+.productViewBox-closeBtn {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.productViewBoxImg {
+    width: 35%;
+    height: 51%;
+    float: left;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    margin: 40px 0 0 40px; 
+}
+
+.productViewBoxImg img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.productViewBoxDetail {
+    width: 40%;
+    float: right;
+    margin-right: 70px;
+}
+
+.productViewBoxDetail h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #333;
+}
+
+.productViewBoxDetail h5 b {
+    font-weight: 600;
+    color: #000;
+}
+
+.productViewBoxDetail .addtocart {
+    border: 1px solid;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.productViewBoxDetail .writereview {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.productViewBoxDetail .buynow {
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 4px;
+    margin-top: 20px;
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+}
+
+.productViewBoxDetail .buynow:hover{
+    box-shadow: 5px 5px 5px #95a5a6;
+}
+

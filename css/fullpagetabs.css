@@ -1,0 +1,55 @@
+
+.tab-wrap{
+	margin: 0;
+	background: #fff;
+	width: 100%;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+.tab-wrap input[type="radio"]{
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+.tab-wrap label{
+	background: #000;
+	display: inline-block;
+	padding: 12px 50px;
+	cursor: pointer;
+	float: left;
+	text-align: center;
+	color: #fff;
+	width: 105px;
+	border-top: 2px solid #000;
+}
+.tab-wrap .tab-content{
+	background: #fff;
+	left: 0;
+	position: absolute;
+	top: 45px; 
+	display: none;
+
+
+}
+
+.tab-wrap [id^="tab"]:checked + label{
+	background: #fff;
+	color: #000;
+	font-weight: bold;
+
+}
+
+.tab-wrap [id^="tab"]:checked ~ .tab-content{
+	display: block;
+}
+
+.topsell{
+	padding: 0;
+	margin: 40px 170px 20px 130px;
+	font-size: 24px;
+	display: block;
+	position: relative;
+	
+}
